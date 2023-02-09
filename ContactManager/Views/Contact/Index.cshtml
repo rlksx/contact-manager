@@ -1,8 +1,55 @@
 @{
-    ViewData["Title"] = "My Contacts";
+    ViewData["Title"] = "Contacts";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Contacts</h1>
-    <p></p>
-</div>
+<h1>My Contacts</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Number</th>
+        <th scope="col">E-mail</th>
+        <th scope="col"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>11 94583467</td>
+        <td>maaark@gmail.com</td>
+        <td>
+            <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary">Edit</a>
+                        <a role="button" class="btn btn-danger">Delete</a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>47 32763898</td>
+        <td>jacobb@hotmail.com</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Exemplo básico">
+                        <a role="button" class="btn btn-primary">Edit</a>
+                        <a role="button" class="btn btn-danger">Delete</a>
+            </div>
+                </td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>Dina</td>
+        <td>27 97852937</td>
+        <td>dina23@gmail.com</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Exemplo básico">
+                        <a role="button" class="btn btn-primary">Edit</a>
+                        <a role="button" class="btn btn-danger">Delete</a>
+                    </div>
+                </td>
+    </tr>
+    </tbody>
+</table>
